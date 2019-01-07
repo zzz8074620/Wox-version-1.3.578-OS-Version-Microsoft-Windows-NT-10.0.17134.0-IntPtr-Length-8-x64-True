@@ -1,0 +1,384 @@
+2019-01-07 12:32:35.8187|INFO|App.OnStartup|Begin Wox startup ----------------------------------------------------
+2019-01-07 12:32:35.8455|INFO|App.OnStartup|Runtime info:
+Wox version: 1.3.578
+OS Version: Microsoft Windows NT 10.0.17134.0
+IntPtr Length: 8
+x64: True
+2019-01-07 12:32:36.0492|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:36.0492|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:36.0492|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:36.0492|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <Error while extracting thumbnail for C:\Program Files\TOSHIBA\System Setting\ButtonSupport\TBSDispatcher.exe>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Wox.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(String fileName, Int32 width, Int32 height, ThumbnailOptions options) 位置 C:\projects\wox\Wox.Infrastructure\Image\ThumbnailReader.cs:行号 130>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Infrastructure>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <IntPtr GetHBitmap(System.String, Int32, Int32, Wox.Infrastructure.Image.ThumbnailOptions)>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147467259>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <完成该操作所需的数据还不可使用。 (异常来自 HRESULT:0x8000000A)>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147483638>
+2019-01-07 12:32:36.0678|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Failed to get thumbnail for C:\Program Files\TOSHIBA\System Setting\ButtonSupport\TBSDispatcher.exe
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Exception message:
+ <Error while extracting thumbnail for C:\Program Files\TOSHIBA\System Setting\ButtonSupport\TBSDispatcher.exe>
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Exception stack trace:
+ <   在 Wox.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(String fileName, Int32 width, Int32 height, ThumbnailOptions options) 位置 C:\projects\wox\Wox.Infrastructure\Image\ThumbnailReader.cs:行号 130
+   在 Wox.Infrastructure.Image.WindowsThumbnailProvider.GetThumbnail(String fileName, Int32 width, Int32 height, ThumbnailOptions options) 位置 C:\projects\wox\Wox.Infrastructure\Image\ThumbnailReader.cs:行号 109
+   在 Wox.Infrastructure.Image.ImageLoader.Load(String path, Boolean loadFullImage) 位置 C:\projects\wox\Wox.Infrastructure\Image\ImageLoader.cs:行号 122>
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Exception source:
+ <Wox.Infrastructure>
+2019-01-07 12:32:36.0678|ERROR|ImageLoader.Load|Exception target site:
+ <IntPtr GetHBitmap(System.String, Int32, Int32, Wox.Infrastructure.Image.ThumbnailOptions)>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception HResult:
+ <-2147467259>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception message:
+ <完成该操作所需的数据还不可使用。 (异常来自 HRESULT:0x8000000A)>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception stack trace:
+ <>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception source:
+ <>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception target site:
+ <>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|Exception HResult:
+ <-2147483638>
+2019-01-07 12:32:36.0800|ERROR|ImageLoader.Load|-------------------------- End exception --------------------------
+2019-01-07 12:32:38.0319|INFO|Wox.Infrastructure.Alphabet.Initialize|Preload pinyin cache <2138ms>
+2019-01-07 12:32:38.0319|INFO|Wox.Infrastructure.Alphabet.Initialize|Number of preload pinyin combination<191>
+2019-01-07 12:32:38.0522|INFO|ImageLoader.Initialize|Preload images cost <2167ms>
+2019-01-07 12:32:38.0522|INFO|ImageLoader.Initialize|Number of preload images is <146>
+2019-01-07 12:32:38.4986|INFO|Wox.Plugin.Program.Main|Preload programs cost <16ms>
+2019-01-07 12:32:38.4986|INFO|Wox.Plugin.Program.Main|Number of preload win32 programs <224>
+2019-01-07 12:32:38.4986|INFO|Wox.Plugin.Program.Main|Number of preload uwps <47>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Windows.ApplicationModel.Package.get_InstalledLocation()
+   在 Wox.Plugin.Program.Programs.UWP.<>c.<CurrentUserPackages>b__26_0(Package p) 位置 C:\projects\wox\Plugins\Wox.Plugin.Program\Programs\UWP.cs:行号 185>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Windows.ApplicationModel>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Windows.Storage.StorageFolder get_InstalledLocation()>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:38.5947|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Can't get package info for <Windows.MiracastView_6.3.0.0_neutral_neutral_cw5n1h2txyewy>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception message:
+ <系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception stack trace:
+ <   在 Windows.ApplicationModel.Package.get_InstalledLocation()
+   在 Wox.Plugin.Program.Programs.UWP.<>c.<CurrentUserPackages>b__26_0(Package p) 位置 C:\projects\wox\Plugins\Wox.Plugin.Program\Programs\UWP.cs:行号 185>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception source:
+ <Windows.ApplicationModel>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception target site:
+ <Windows.Storage.StorageFolder get_InstalledLocation()>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:38.5947|ERROR|UWP.CurrentUserPackages|-------------------------- End exception --------------------------
+2019-01-07 12:32:38.9602|ERROR|UWP.LogoPathFromUri| <Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI> can't find logo uri for <Assets\Square44x44Logo.png>, Package location <C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy>.
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.Microsoft3DViewer_5.1811.27012.0_x64__8wekyb3d8bbwe? ms-resource:///resources/Common.View.UWP/Resources/ExternalAppName}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.Microsoft3DViewer_5.1811.27012.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception message:
+ <未指定的错误
+
+'Preview Handler' 违反了 '\bms-resource:.{1,256}' 的 pattern 约束。
+>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2019-01-07 12:32:39.5083|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Load pri failed <@{Microsoft.Microsoft3DViewer_5.1811.27012.0_x64__8wekyb3d8bbwe? ms-resource:///resources/Common.View.UWP/Resources/ExternalAppDescription}> with HResult <2147957527> and location <C:\Program Files\WindowsApps\Microsoft.Microsoft3DViewer_5.1811.27012.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception fulle name:
+ <System.Runtime.InteropServices.COMException>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception message:
+ <找不到 NamedResource。 (异常来自 HRESULT:0x80073B17)>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception stack trace:
+ <>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception source:
+ <>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception target site:
+ <>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|Exception HResult:
+ <-2147009769>
+2019-01-07 12:32:39.5128|ERROR|UWP.ResourceFromPri|-------------------------- End exception --------------------------
+2019-01-07 12:32:39.5766|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App> can't find logo uri for <Assets\VoiceRecorderAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsSoundRecorder_10.1811.3242.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.6833|ERROR|UWP.LogoPathFromUri| <Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic> can't find logo uri for <Assets\AppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ZuneMusic_10.18102.10531.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.7032|ERROR|UWP.LogoPathFromUri| <Microsoft.GetHelp_8wekyb3d8bbwe!App> can't find logo uri for <Assets\TinyTile.png>, Package location <C:\Program Files\WindowsApps\Microsoft.GetHelp_10.1706.12921.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.7754|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsAlarms_8wekyb3d8bbwe!App> can't find logo uri for <Assets\AlarmsAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsAlarms_10.1811.3241.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.8308|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsMaps_8wekyb3d8bbwe!App> can't find logo uri for <Assets\AppTiles\MapsAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsMaps_5.1811.3233.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:39.8619|ERROR|UWP.LogoPathFromUri| <Microsoft.ZuneVideo_8wekyb3d8bbwe!Microsoft.ZuneVideo> can't find logo uri for <Assets\AppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.18102.12011.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:40.0292|ERROR|UWP.LogoPathFromUri| <Microsoft.WindowsCalculator_8wekyb3d8bbwe!App> can't find logo uri for <Assets\CalculatorAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1811.3241.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:40.1554|ERROR|UWP.LogoPathFromUri| <Microsoft.People_8wekyb3d8bbwe!x4c7a3b7dy2188y46d4ya362y19ac5a5805e5x> can't find logo uri for <Assets\PeopleAppList.png>, Package location <C:\Program Files\WindowsApps\Microsoft.People_10.1811.3343.0_x64__8wekyb3d8bbwe>.
+2019-01-07 12:32:40.4018|INFO|Wox.Plugin.Program.Main|Program index cost <1896ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Calculator> is <18ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Shell> is <24ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <System Commands> is <2ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <URL> is <4ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Colors> is <2ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Folder> is <9ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Plugin Indicator> is <1ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Wox Plugin Management> is <1ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <PirateBay> is <2ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <有道翻译-单词记录> is <0ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Hello World Python> is <0ms>
+2019-01-07 12:32:40.7828|INFO|PluginManager.InitializePlugins|Total init cost for <Program> is <33ms>
+2019-01-07 12:32:40.7953|INFO|PluginManager.InitializePlugins|Total init cost for <Web Searches> is <27ms>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <未能加载文件或程序集“Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。系统找不到指定的文件。>
+2019-01-07 12:32:40.7953|INFO|PluginManager.InitializePlugins|Total init cost for <Everything> is <15ms>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Wox.Plugin.Express.Main.Init(PluginInitContext context)
+   在 Wox.Infrastructure.Stopwatch.Debug(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 19>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Express>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void Init(Wox.Plugin.PluginInitContext)>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:40.7953|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <未能加载文件或程序集“Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。系统找不到指定的文件。>
+2019-01-07 12:32:40.8108|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Wox.Plugin.Express.Main.Init(PluginInitContext context)
+   在 Wox.Infrastructure.Stopwatch.Debug(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 19
+   在 Wox.Core.Plugin.PluginManager.<>c.<InitializePlugins>b__19_0(PluginPair pair) 位置 C:\projects\wox\Wox.Core\Plugin\PluginManager.cs:行号 101
+   在 System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()>
+2019-01-07 12:32:40.8108|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Express>
+2019-01-07 12:32:40.8108|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void Init(Wox.Plugin.PluginInitContext)>
+2019-01-07 12:32:40.8108|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:40.8108|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:40.9684|INFO|PluginManager.InitializePlugins|Total init cost for <Control Panel> is <196ms>
+2019-01-07 12:32:40.9684|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:40.9684|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:40.9684|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.AggregateException>
+2019-01-07 12:32:40.9684|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <发生一个或多个错误。>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <mscorlib>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void ThrowIfExceptional(Boolean)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233088>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <未能加载文件或程序集“Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。系统找不到指定的文件。>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Wox.Plugin.Express.Main.Init(PluginInitContext context)
+   在 Wox.Infrastructure.Stopwatch.Debug(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 19
+   在 Wox.Core.Plugin.PluginManager.<>c.<InitializePlugins>b__19_0(PluginPair pair) 位置 C:\projects\wox\Wox.Core\Plugin\PluginManager.cs:行号 101
+   在 System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()
+   在 System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   在 System.Threading.Tasks.Task.<>c__DisplayClass176_0.<ExecuteSelfReplicating>b__0(Object )>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Express>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void Init(Wox.Plugin.PluginInitContext)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.AggregateException>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <发生一个或多个错误。>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   在 System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <mscorlib>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void ThrowIfExceptional(Boolean)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233088>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.IO.FileNotFoundException>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <未能加载文件或程序集“Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。系统找不到指定的文件。>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 Wox.Plugin.Express.Main.Init(PluginInitContext context)
+   在 Wox.Infrastructure.Stopwatch.Debug(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 19
+   在 Wox.Core.Plugin.PluginManager.<>c.<InitializePlugins>b__19_0(PluginPair pair) 位置 C:\projects\wox\Wox.Core\Plugin\PluginManager.cs:行号 101
+   在 System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()
+   在 System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   在 System.Threading.Tasks.Task.<>c__DisplayClass176_0.<ExecuteSelfReplicating>b__0(Object )>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <Wox.Plugin.Express>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <Void Init(Wox.Plugin.PluginInitContext)>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2147024894>
+2019-01-07 12:32:40.9840|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
+2019-01-07 12:32:41.0154|FATAL|UnHandledException|
+## Exception
+
+```
+System.IO.FileNotFoundException: 未能加载文件或程序集“Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。系统找不到指定的文件。
+   Source: Wox.Plugin.Express
+   TargetAssembly: Wox.Plugin.Express, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+   TargetModule: Wox.Plugin.Express.dll
+   TargetSite: Void Init(Wox.Plugin.PluginInitContext)
+   在 Wox.Plugin.Express.Main.Init(PluginInitContext context)
+   在 Wox.Infrastructure.Stopwatch.Debug(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 19
+   在 Wox.Core.Plugin.PluginManager.<>c.<InitializePlugins>b__19_0(PluginPair pair) 位置 C:\projects\wox\Wox.Core\Plugin\PluginManager.cs:行号 101
+   在 System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()
+   在 System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   在 System.Threading.Tasks.Task.<>c__DisplayClass176_0.<ExecuteSelfReplicating>b__0(Object )
+
+System.AggregateException: 发生一个或多个错误。
+   Source: mscorlib
+   TargetAssembly: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+   TargetModule: CommonLanguageRuntimeLibrary
+   TargetSite: Void ThrowIfExceptional(Boolean)
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   在 System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   在 System.Threading.Tasks.Parallel.ForEachWorker[TSource,TLocal](IEnumerable`1 source, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Action`3 bodyWithStateAndIndex, Func`4 bodyWithStateAndLocal, Func`5 bodyWithEverything, Func`1 localInit, Action`1 localFinally)
+   在 System.Threading.Tasks.Parallel.ForEach[TSource](IEnumerable`1 source, Action`1 body)
+   在 Wox.Core.Plugin.PluginManager.InitializePlugins(IPublicAPI api) 位置 C:\projects\wox\Wox.Core\Plugin\PluginManager.cs:行号 91
+   在 Wox.App.<OnStartup>b__10_0() 位置 C:\projects\wox\Wox\App.xaml.cs:行号 60
+   在 Wox.Infrastructure.Stopwatch.Normal(String message, Action action) 位置 C:\projects\wox\Wox.Infrastructure\Stopwatch.cs:行号 31
+   在 System.Windows.Application.OnStartup(StartupEventArgs e)
+   在 System.Windows.Application.<.ctor>b__1_0(Object unused)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+```
+
+## Environment
+* Command Line: "C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Wox.exe" 
+* Timestamp: 01/07/2019 12:32:41
+* Wox version: 1.3.578
+* OS Version: Microsoft Windows NT 10.0.17134.0
+* IntPtr Length: 8
+* x64: True
+* Python Path: pythonw.exe
+* Everything SDK Path: C:\Users\zengy\AppData\Roaming\Wox\Settings\Plugins\Wox.Plugin.Everything\EverythingSDK\x64\Everything.dll
+* CLR Version: 4.0.30319.42000
+* Installed .NET Framework: 
+   * v2.0.50727 2.0.50727.4927 SP2
+   * v3.0 3.0.30729.4926 SP2
+   * v3.5 3.5.30729.4926 SP1
+   * v4 Client 4.7.03056
+   * v4 Full 4.7.03056
+   * v4.0 Client 4.0.0.0
+
+## Assemblies - Wox.exe
+
+* Wox, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Wox.exe)
+* Wox.Infrastructure, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Wox.Infrastructure.dll)
+* Wox.Plugin, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Wox.Plugin.dll)
+* Wox.Core, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Wox.Core.dll)
+* NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\NLog.dll)
+* Pinyin4Net, Version=2016.4.24.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Pinyin4Net.dll)
+* Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Newtonsoft.Json.dll)
+* Wox.Plugin.Caculator, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Caculator\Wox.Plugin.Caculator.dll)
+* Mages.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Caculator\Mages.Core.dll)
+* Wox.Plugin.Color, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Color\Wox.Plugin.Color.dll)
+* Wox.Plugin.ControlPanel, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.ControlPanel\Wox.Plugin.ControlPanel.dll)
+* Wox.Plugin.Everything, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Everything\Wox.Plugin.Everything.dll)
+* Wox.Plugin.Folder, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Folder\Wox.Plugin.Folder.dll)
+* Wox.Plugin.PluginIndicator, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.PluginIndicator\Wox.Plugin.PluginIndicator.dll)
+* Wox.Plugin.PluginManagement, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.PluginManagement\Wox.Plugin.PluginManagement.dll)
+* Wox.Plugin.Program, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Program\Wox.Plugin.Program.dll)
+* Wox.Plugin.Shell, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Shell\Wox.Plugin.Shell.dll)
+* Windows.ApplicationModel, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime (C:\WINDOWS\system32\WinMetadata\Windows.ApplicationModel.winmd)
+* WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\WindowsInput.dll)
+* Windows.Foundation, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime (C:\WINDOWS\system32\WinMetadata\Windows.Foundation.winmd)
+* Windows.Management, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime (C:\WINDOWS\system32\WinMetadata\Windows.Management.winmd)
+* Wox.Plugin.Sys, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Sys\Wox.Plugin.Sys.dll)
+* Wox.Plugin.Url, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.Url\Wox.Plugin.Url.dll)
+* Wox.Plugin.WebSearch, Version=1.3.578.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\Plugins\Wox.Plugin.WebSearch\Wox.Plugin.WebSearch.dll)
+* Wox.Plugin.PirateBay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Roaming\Wox\Plugins\PirateBay-311dc067-2e3c-40a2-b067-96796d3be5af\Wox.Plugin.PirateBay.dll)
+* Wox.Plugin.Express, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Roaming\Wox\Plugins\快递查询-4d15e187-3680-4c79-8917-e47004e7d9c4\Wox.Plugin.Express.dll)
+* Wox.Plugin.Youdao, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Roaming\Wox\Plugins\有道翻译-c28bf4e5-351a-435e-b89d-bf183fb30c5d\Wox.Plugin.Youdao.dll)
+* NHotkey, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\NHotkey.dll)
+* Windows.Storage, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime (C:\WINDOWS\system32\WinMetadata\Windows.Storage.winmd)
+* Windows.System, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime (C:\WINDOWS\system32\WinMetadata\Windows.System.winmd)
+* NHotkey.Wpf, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null (C:\Users\zengy\AppData\Local\Wox\app-1.3.578\NHotkey.Wpf.dll)
+* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll)
+* PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll)
+* WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll)
+* System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll)
+* System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll)
+* PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_64\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll)
+* System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll)
+* System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll)
+* System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll)
+* System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll)
+* PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.resources\v4.0_4.0.0.0_zh-Hans_31bf3856ad364e35\PresentationFramework.resources.dll)
+* System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll)
+* System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll)
+* System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll)
+* mscorlib.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_zh-Hans_b77a5c561934e089\mscorlib.resources.dll)
+* System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll)
+* System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll)
+* System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll)
+* System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll)
+* PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\PresentationCore.resources\v4.0_4.0.0.0_zh-Hans_31bf3856ad364e35\PresentationCore.resources.dll)
+* PresentationFramework.Aero2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.Aero2\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.Aero2.dll)
+* System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll)
+
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|-------------------------- Begin exception --------------------------
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|First Chance Exception:
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|Exception fulle name:
+ <System.Deployment.Application.InvalidDeploymentException>
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|Exception message:
+ <未设置应用程序标识。>
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|Exception stack trace:
+ <   在 System.Deployment.Application.ApplicationDeployment.get_CurrentDeployment()>
+2019-01-07 12:34:06.9443|ERROR|App.RegisterAppDomainExceptions|Exception source:
+ <System.Deployment>
+2019-01-07 12:34:06.9483|ERROR|App.RegisterAppDomainExceptions|Exception target site:
+ <System.Deployment.Application.ApplicationDeployment get_CurrentDeployment()>
+2019-01-07 12:34:06.9483|ERROR|App.RegisterAppDomainExceptions|Exception HResult:
+ <-2146233087>
+2019-01-07 12:34:06.9483|ERROR|App.RegisterAppDomainExceptions|-------------------------- End exception --------------------------
